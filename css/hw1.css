@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+
+body{
+    
+    padding: 20px;
+    margin: 3px;
+}
+
+header{
+    
+    background-image:url("../images/flywheel.jpg");
+    background-color:#d3d3d3 ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 30px;
+    opacity: 0,5;
+    
+}
+nav a{
+    text-align: center;
+    display: inline-block;
+    border-radius: 15px 15px;
+    -moz-border-radius: 15px 15px;
+    -webkit-border-radius: 15px 15px;
+    -o-border-radius:15px 15px;
+    margin: 2%;
+    text-decoration: none;
+    padding:10px;
+    color:#000000;
+    background: #d6d6c2;
+    width:15%;
+    margin-left: 7%;
+    margin-right: 2%;
+    
+    
+}
+nav a:hover{
+    background-color: #b3ffb3;
+    color: #000000;
+
+}
+nav a:focus{
+    color: #ffff00;
+    background-color: #208000;
+}
+/*nav a:active{
+    border: 3px solid #000000
+}
+*/
+
+
+.active{
+    color: #ffffff;
+    background-color:#004d1a;
+}
+h1{
+text-align: center;
+color:#ffffff;
+text-transform: uppercase;
+font-size:50px;
+}
+
+h2{
+    color: #662200;
+    text-transform: uppercase;
+    margin-inline-start:-10px;
+    margin-top: 5px;;
+    
+}
+section{
+    display: inline-block;
+}
+
+
+img{
+    width:150px;
+    border:3px solid #662200;
+    display: inline-block;
+    margin:auto;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-left:20px;
+    
+}
+
+
+
+ .left{
+    margin:0 auto;
+    padding: 2px;
+    box-sizing: border-box;
+    background-color: #b3ffb3;
+    display: inline-block;
+    height:600px;
+    width:200px;
+    float:left;
+
+}
+
+.right{
+     width: 470px;
+     height:55px;
+     margin:14px;
+     display: inline-block;
+     float: left;   
+
+}
+p{
+    display: inline-block ;
+    width: 750px;
+    height: 60px;
+    margin-top: 12px;
+    margin-left: -10px;
+}
+
+ul{
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+
+table{
+    
+    border-spacing: 0;
+    border: 2px solid #ffffff;
+    color:#000000;
+    margin: 10px 50px 50px 50px; 
+    font-size: 17px;
+    line-height: 25px;  
+    width:600px;  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+th{
+    border: 2px solid #ffffff;
+    background: linear-gradient(120deg,#b3ffb3,#004d1a);
+    -webkit-background-linear-gradient:(120deg,#b3ffb3,#004d1a);
+    -o-background-linear-gradient:(120deg,#b3ffb3,#004d1a);
+    -moz-background-linear-gradient:(120deg,#b3ffb3,#004d1a);
+    border-bottom:thick;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-transform: capitalize;
+    padding:8px;
+
+    
+}
+td{
+    border: 2px solid #ffffff;
+    border-spacing: 0;
+    background-color:#d6d6c2;
+    color:#000000;
+    text-align: center;
+    padding:5px;
+    border-radius:2px;
+    -webkit-border-radius:2px;
+    text-shadow: 5px 5px 10px rgb(26, 27, 26);
+    text-transform: capitalize;
+}
+
+td:first-child{
+    text-align:left; 
+    padding: 3px; 
+}
+th:first-child{
+    text-align: left;
+}
+tr{
+    opacity:0.8;
+}
+tr:hover{
+    opacity:1;
+}
+
+
+
